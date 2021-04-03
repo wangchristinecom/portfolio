@@ -1,21 +1,27 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `http://wangchristine.com`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Christine Wang',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Christine Wang | Strategist, Artist, Entrepreneur`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `A portfolio career`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@wangchristinecom`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    //github: ``,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/christinewang0/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Christine Wang is a multi-cultural professional helping companies on innovation and cross-border strategies between Asia and the Rest of World. She speaks five languages and has lived and worked in multiple countries including China, US, Germany, Singapore, South Africa amongst others.
+
+Christine is an entrepreneur, consultant and versatile leader with 12+ years of experience in strategy, business model innovation and commercial & go-to-market execution. She is currently the Managing Director of the Lufthansa Innovation Hub based in Berlin and Singapore. Previously, she was the China CEO of Meero, a French AI-start-up, a Project Leader at BCG Digital Ventures and BCG and a Global Leadership Associate at Alibaba.
+
+Apart from her business career, Christine is an violionist and avid documentary photographer. With her drone and her Canon, she depicts every day life around the world and held solo exhibitions, like “Faces of the World” in Shanghai 2018. She also had 17 years of violin education and was part of various orchestras, quartets and ensembles.
+
+She holds an MBA from INSEAD, a Diploma in Business & Computer Science from TU Munich, an Honors Degree in Design Thinking from Hasso-Plattner Institute and was previously a visiting research scholar in Open Innovation at Columbia Business School. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
