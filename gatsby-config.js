@@ -21,8 +21,29 @@ module.exports = {
     Apart from her business career, Christine is  a violinist with 17 years of education and an avid documentary photographer since 2010. 
     Her work was last displayed in a solo exhibition in Shanghai in 2018`,
     
+   // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+   experience: [
+    {
+      time: '2019 - Today',
+      name: 'Lufthansa Innovation Hub GmbH | Managing Director | Berlin & Singapore ',
+      description: 'Overall responsibility of the business, strategy and day-to-day operations',
+      link: 'https://github.com/RyanFitzgerald/devfolio',
+    },
+    {
+      time: '2019 - Today',
+      name: 'Globex Corp',
+      description: 'Full-Stack Developer, December 2017 - February 2020',
+      link: 'https://github.com/RyanFitzgerald/devfolio',
+    },
+    {
+      time: '2019 - Today',
+      name: 'Hooli',
+      description: 'Full-Stack Developer, May 2015 - December 2017',
+      link: 'https://github.com/RyanFitzgerald/devfolio',
+    },
+  ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+  projects: [
       {
         name: 'Devfolio',
         description:
@@ -42,24 +63,7 @@ module.exports = {
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {

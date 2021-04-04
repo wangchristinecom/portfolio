@@ -11,6 +11,7 @@ const SectionExperience = ({ experience }) => {
       {experience.map((item) => (
         <SummaryItem
           key={item.name}
+          time={item.time}
           name={item.name}
           description={item.description}
           link={item.link}

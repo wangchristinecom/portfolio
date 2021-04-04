@@ -17,6 +17,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
 
   return (
     <div className={classes.wrapper}>
+      <h3 className={classes.time}>{time}</h3>
       <h3
         className={`${classes.name} ${
           link ? 'hover:underline hover:text-black' : ''
