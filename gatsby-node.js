@@ -78,13 +78,19 @@ exports.createSchemaCustomization = ({ actions }) => {
       fotw: String
       typea: String
       about: String
-      experience: [SectionItem]
+      experience: [SectionItemExp]
       projects: [SectionItem]
       skills: [SectionItem]
     }
 
-    type SectionItem {
+    type SectionItemExp {
       time: String!
+      name: String!
+      description: String!
+      link: String!
+    }
+
+    type SectionItem {
       name: String!
       description: String!
       link: String!
