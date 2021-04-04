@@ -9,11 +9,14 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Strategist | Artist | Entrepreneur`,
     // Optional: Twitter account handle
-    author: `@wangchristinecom`,
+    // author: `@wangchristinecom`,
     // Optional: Github account URL
     //github: ``,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/christinewang0/`,
+    cxc: `http://cxcinnovation.com/`,
+    fotw: `http://www.facesoftheworld.org/`,
+    typea: `http://typeawoman.com/`,
     // Content of the About Me section
     about: `Christine is a multi-cultural, multi-lingual and multi-faceted senior professional with 12+ years of experience in innovation, 
     digitization and new venture building across different industries. She is currently the Managing Director of Lufthansa Innovation Hub 
@@ -134,8 +137,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `christinewang`,
+        short_name: `christinewang`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
