@@ -9,9 +9,9 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Strategist | Artist | Entrepreneur`,
     // Optional: Twitter account handle
-    // author: `@wangchristinecom`,
+    author: `@wangchristinecom`,
     // Optional: Github account URL
-    //github: ``,
+    github: ``,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/christinewang0/`,
     cxc: `http://cxcinnovation.com/`,
