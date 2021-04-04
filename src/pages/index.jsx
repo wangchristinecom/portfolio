@@ -47,6 +47,10 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        skills {
+          name
+          description
+        }
         projects {
           name
           description
@@ -57,10 +61,7 @@ export const pageQuery = graphql`
           description
           link
         }
-        skills {
-          name
-          description
-        }
+        
       }
     }
     allMarkdownRemark(
