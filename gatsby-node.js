@@ -78,7 +78,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       fotw: String
       typea: String
       about: String
-      experience: [SectionItemExp]
+      
       projects: [SectionItem]
       skills: [SectionItem]
     }
