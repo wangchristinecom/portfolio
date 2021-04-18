@@ -1,56 +1,21 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `http://wangchristine.com`,
+    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Christine Wang',
+    name: 'Ryan Fitzgerald',
     // Main Site Title
-    title: `Christine Wang | Strategist, Artist, Entrepreneur`,
+    title: `Ryan Fitzgerald | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Strategist | Artist | Entrepreneur`,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@wangchristinecom`,
+    author: `@rfitzio`,
     // Optional: Github account URL
-    github: ``,
+    github: `https://github.com/ryanfitzgerald`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/christinewang0/`,
-    cxc: `http://cxcinnovation.com/`,
-    fotw: `http://www.facesoftheworld.org/`,
-    typea: `http://typeawoman.com/`,
-    
+    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
-    
-    about: `Christine is a multi-cultural and multi-faceted senior professional with 12+ years of experience in innovation, 
-        digitization and new venture building across different industries. She is currently the Managing Director of Lufthansa Innovation Hub 
-        and also run her own advisory business CX Consulting.
-        Apart from her business career, Christine is  a violinist with 17 years of education and an avid documentary photographer since 2010. 
-        Her work was last displayed in a solo exhibition in Shanghai in 2018`,
-      
-    
-    /*about: `Christine is a multi-cultural and multi-faceted senior professional with 12+ years of experience in innovation, 
-    digitization and new venture building across different industries. She is currently the Managing Director of Lufthansa Innovation Hub 
-    and also run her own advisory business CX Consulting.   {"\n"}
-    Apart from her business career, Christine is  a violinist with 17 years of education and an avid documentary photographer since 2010. 
-    Her work was last displayed in a solo exhibition in Shanghai in 2018`,*/
-    
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Lufthansa Innovation Hub GmbH | Managing Director | Berlin & Singapore ',
-        description: 'Overall responsibility of the business, strategy and day-to-day operations',  
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -72,7 +37,24 @@ module.exports = {
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
-    
+    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+    experience: [
+      {
+        name: 'Acme Corp',
+        description: 'Full-Stack Developer, February 2020 - Present',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Globex Corp',
+        description: 'Full-Stack Developer, December 2017 - February 2020',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Hooli',
+        description: 'Full-Stack Developer, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+    ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
