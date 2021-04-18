@@ -20,15 +20,15 @@ module.exports = {
     
     // Content of the About Me section
     
-    about: [
-      { 
-        p1: `Christine is a multi-cultural and multi-faceted senior professional with 12+ years of experience in innovation, 
+    about: 
+
+        `Christine is a multi-cultural and multi-faceted senior professional with 12+ years of experience in innovation, 
         digitization and new venture building across different industries. She is currently the Managing Director of Lufthansa Innovation Hub 
-        and also run her own advisory business CX Consulting.`,
-        p2: `Apart from her business career, Christine is  a violinist with 17 years of education and an avid documentary photographer since 2010. 
+        and also run her own advisory business CX Consulting.
+        Apart from her business career, Christine is  a violinist with 17 years of education and an avid documentary photographer since 2010. 
         Her work was last displayed in a solo exhibition in Shanghai in 2018`,
-      },
-    ],
+      
+    
     /*about: `Christine is a multi-cultural and multi-faceted senior professional with 12+ years of experience in innovation, 
     digitization and new venture building across different industries. She is currently the Managing Director of Lufthansa Innovation Hub 
     and also run her own advisory business CX Consulting.   {"\n"}
