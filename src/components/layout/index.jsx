@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         fill="none"
         viewBox="0 0 404 784"
       >
-        <defs>
+        {/*<defs>
           <pattern
             id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
             x="0"
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
               fill="#edf2f7"
             />
           </pattern>
-        </defs>
+        </defs>*/}
         <rect
           width="404"
           height="784"
