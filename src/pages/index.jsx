@@ -23,7 +23,9 @@ const Index = ({ data }) => {
     <Layout>
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
-      {about && <SectionAbout about={about} />}
+      {about && about.length && (
+        <SectionAbout about={about} />
+      )}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
       )}
@@ -44,7 +46,10 @@ export const pageQuery = graphql`
         name
         title
         description
-        about
+        about { 
+          p1
+          p2
+        }
         author
         linkedin
         cxc

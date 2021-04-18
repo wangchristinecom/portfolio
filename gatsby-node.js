@@ -77,10 +77,15 @@ exports.createSchemaCustomization = ({ actions }) => {
       cxc: String
       fotw: String
       typea: String
-      about: String
+      about: [aboutItem]
       experience: [SectionItem]
       projects: [SectionItem]
       skills: [SectionItem]
+    }
+
+    type aboutItem {
+      p1: String!
+      p2: String!
     }
 
     type SectionItem {
