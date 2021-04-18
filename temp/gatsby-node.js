@@ -66,7 +66,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
   const typeDefs = `
-    type SiteSiteMetadata {
+    type siteMetadata {
       siteUrl: String
       name: String
       title: String
@@ -74,10 +74,20 @@ exports.createSchemaCustomization = ({ actions }) => {
       author: String
       github: String
       linkedin: String
+      cxc: String
+      fotw: String
+      typea: String
       about: String
+      
       projects: [SectionItem]
-      experience: [SectionItem]
       skills: [SectionItem]
+    }
+
+    type SectionItemExp {
+      time: String!
+      name: String!
+      description: String!
+      link: String!
     }
 
     type SectionItem {
