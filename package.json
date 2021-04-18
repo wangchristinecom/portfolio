@@ -1,9 +1,9 @@
 {
-  "name": "christinewang",
+  "name": "devfolio",
   "private": true,
-  "description": "Personal Website (c) Christine Wang",
+  "description": "A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS",
   "version": "0.1.0",
-  "author": "Christine Wang",
+  "author": "Ryan Fitzgerald",
   "dependencies": {
     "gatsby": "^2.24.67",
     "gatsby-image": "^2.4.20",
@@ -49,9 +49,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wangchristinecom/portfolio"
+    "url": "https://github.com/RyanFitzgerald/devfolio"
   },
   "bugs": {
-    "url": "https://github.com/wangchristinecom/portfolio/issues"
+    "url": "https://github.com/RyanFitzgerald/devfolio/issues"
   }
 }

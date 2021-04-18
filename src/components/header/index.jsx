@@ -10,7 +10,6 @@ const classes = {
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
-  //time: 'text-5xl text-gray-900 font-bold ',
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
@@ -19,14 +18,9 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  //const twitter = get(metadata, 'author', false);
+  const twitter = get(metadata, 'author', false);
+  const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
-  const cxc = get(metadata, 'cxc', false);
-  const fotw = get(metadata, 'fotw', false);  
-  const typea = get(metadata, 'typea', false);  
-  //const github = get(metadata, 'github', false);
-  
-  
 
   return (
     <div className={classes.wrapper}>
@@ -41,15 +35,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-           {
-             linkedin && (
-              <li className={classes.item}>
-                <a className={classes.link} href={linkedin}>
-                  LinkedIn
-                </a>
-              </li>
-            )
-           /*twitter && (
+          {twitter && (
             <li className={classes.item}>
               <a
                 className={classes.link}
@@ -79,28 +65,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 Blog
               </Link>
             </li>
-          )*/}
-          {cxc && (
-            <li className={classes.item}>
-              <a className={classes.link} href={cxc}>
-                CXC Innovation
-              </a>
-            </li>
           )}
-          {fotw && (
-            <li className={classes.item}>
-              <a className={classes.link} href={fotw}>
-                Faces of the World
-              </a>
-            </li>
-          )}
-          {typea && (
-            <li className={classes.item}>
-              <a className={classes.link} href={typea}>
-                Type A Woman
-              </a>
-            </li>
-          )}          
         </ul>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     <div className={classes.outerWrapper}>
       <svg
         className={classes.svg}
-        width="0"
+        width="404"
         height="784"
         fill="none"
         viewBox="0 0 404 784"
