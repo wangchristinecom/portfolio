@@ -11,7 +11,7 @@ module.exports = {
     // Optional: Twitter account handle
     author: `@wangchristinecom`,
     // Optional: Github account URL
-    //github: ``,
+    github: ``,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/christinewang0/`,
     cxc: `http://cxcinnovation.com/`,

@@ -10,20 +10,22 @@ const classes = {
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
+  //time: 'text-5xl text-gray-900 font-bold ',
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  //const twitter = get(metadata, 'author', false);
- // const github = get(metadata, 'github', false);
+
   const linkedin = get(metadata, 'linkedin', false);
   const cxc = get(metadata, 'cxc', false);
   const fotw = get(metadata, 'fotw', false);  
-  const typea = get(metadata, 'typea', false); 
+  const typea = get(metadata, 'typea', false);  
+  //const github = get(metadata, 'github', false);
+  //const twitter = get(metadata, 'author', false);
+  
 
   return (
     <div className={classes.wrapper}>
@@ -38,32 +40,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
-           {
-             linkedin && (
-              <li className={classes.item}>
-                <a className={classes.link} href={linkedin}>
-                  LinkedIn
-                </a>
-              </li>
-            )}
-          {/*cxc && (
-           twitter && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`https://twitter.com/${twitter}`}
-              >
-                Twitter
-              </a>
-            </li>
-          )}
-          {github && (
-            <li className={classes.item}>
-              <a className={classes.link} href={github}>
-                GitHub
-              </a>
-            </li>
-          )}
           {linkedin && (
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
@@ -71,7 +47,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {!noBlog && (
+          {/*!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
                 Blog
