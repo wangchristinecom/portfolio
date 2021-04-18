@@ -45,8 +45,9 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                   LinkedIn
                 </a>
               </li>
-            )
-           /*twitter && (
+            )}
+          {/*cxc && (
+           twitter && (
             <li className={classes.item}>
               <a
                 className={classes.link}
