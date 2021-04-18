@@ -14,8 +14,7 @@ const classes = {
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -42,14 +41,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
            {
-             linkedin && (
-              <li className={classes.item}>
-                <a className={classes.link} href={linkedin}>
-                  LinkedIn
-                </a>
-              </li>
-            )
-           /*twitter && (
+           twitter && (
             <li className={classes.item}>
               <a
                 className={classes.link}
@@ -79,7 +71,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 Blog
               </Link>
             </li>
-          )*/}
+          )}
           {cxc && (
             <li className={classes.item}>
               <a className={classes.link} href={cxc}>
