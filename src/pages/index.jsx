@@ -46,10 +46,7 @@ export const pageQuery = graphql`
         name
         title
         description
-        about { 
-          p1
-          p2
-        }
+        about 
         author
         linkedin
         cxc

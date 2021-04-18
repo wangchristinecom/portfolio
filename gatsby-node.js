@@ -83,11 +83,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       skills: [SectionItem]
     }
 
-    type AboutItem {
-      p1: String!
-      p2: String!
-    }
-
     type SectionItem {
       name: String!
       description: String!
